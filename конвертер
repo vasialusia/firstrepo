@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+	<title>КОНВЕРТЕР</title>
+	<meta charset="UTF-8">
+	</head>
+<body>
+<script>
+var a = 68.71;
+var b = 2.52;
+var c = +prompt("Введите сумму для конвертации в рублях");
+var d = c/a;
+var e = c/b;
+alert("Ваша сумма в чешских кронах (CZK) "+e);
+alert("Ваша сумма в евро (EUR) "+d);
+</script>
+</body>
+</html>
